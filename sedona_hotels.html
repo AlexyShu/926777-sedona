@@ -5,50 +5,61 @@
     <title>SEDONA hotels</title>
   </head>
   <body>
+<!-- По хедеру замечания в индексе -->
   	<header class="main header">
   		<nav class="main-navigation">
         <ul slass="site-navigation">
-          <li><a href="info.html">ИНФОРМАЦИЯ</a></li> 
-          <li><a href="gallery.html">ФОТО И ВИДЕО</a></li> 
-          <li><a href="main.html"><img src="main.jpg"> <h1>Главная страница</h1></a></li> 
-          <li><a href="map.html">КАРТА ШТАТА</a></li> 
-          <li class="site-navigation-current"><a href="cotalg.html">ГОСТИНИЦЫ</a></li> 
+          <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
+          <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
+          <li><a href="main.html"><img src="main.jpg"> <h1>Главная страница</h1></a></li>
+          <li><a href="map.html">КАРТА ШТАТА</a></li>
+          <li class="site-navigation-current"><a href="cotalg.html">ГОСТИНИЦЫ</a></li>
         </ul>
   		</nav>
 </header>
 <main>
   <section class="form">
   <img src="main.jpg">
+<!-- Это изображение должно быть фоновым на section class="form". -->
+
   <!--Тут будет форма-->
 </section>
 <div class="filters">
   <h2 class="visually-hidden">Фильтр</h2>
    <b class="result"><strong>Найдено: 3</strong></b><br>
+<!-- Теги b и strong взаимоисключающие теги. Рекомендую использовать strong, так как он более семантичен. А про тег b следует и вовсе забыть - это пережитки 19-го века -->
     <ul class="filters">
-      <li class="filters">Сортировка:</li><li class="filters-current"><a href="price.html">По цене</a></li>
+      <li class="filters">Сортировка:</li>
+<!-- Сортировка не должна являтся элементом данного списка, так как в списке должны находиться однотипные элементы. Ее нужно вынести за пределы тега ul -->
+      <li class="filters-current"><a href="price.html">По цене</a></li>
       <li><a href="type.html">По типу</a></li>
       <li><a href="rating.html">По рейтингу</a></li>
       <li class="visually-hidden"><a href="button.html">стрелочки</a></li>
+<!-- стрелочки должны быть отдельными ссылками  -->
     </ul>
-</div> 
+</div>
  <section class="hotels">
   <h2 class="visually-hidden">Список отелей</h2>
    <ul class="hotels-list">
     <li class="hotel-1">
+<!-- <li class="hotel-1">, <li class="hotel-2">, <li class="hotel-3"> абсолютно одинаковые блоки с точки зрения стилизации. И отличаются исключительно контентом. Поэтому у них и у всех элементов внутри них классы должны быть одинаковыми -->
       <h3>
         <a href="hotel-1.html">
         <span class="hotel-1-title">Amara Resort & Spa</span>
+<!-- Разве заголовок должен быть ссылкой? нигде этого не написано. Тем более есть кнопка "подробнее". Так что ссылку убираем. Тег span тоже не понятно что тут делает. Оставляем только h3 -->
       </a>
     </h3>
      <span class="hotel-category">Гостиница</span>
      <p>
        <a href="hotel-1.html">
+<!-- Картинка не должна быть ссылкой -->
          <img src="hotel-1.jpg" alt="Amara Resort & Spa">
        </a>
      </p>
     <b>От 4000 Р.</b><br>
      <a class="button" href="#">Подробнее</a>
       <input type="submit" value="Забронировать">
+Что-то накрутила-накрутила... я запутался. Накидаю тебе разметку: http://prntscr.com/lm8gl3
   </li>
  <li class="hotel-2">
       <h3>
@@ -86,8 +97,9 @@
  </section>
 </main>
 <footer class="main-footer">
+<!-- По футеру замечания в индексе -->
   <a href="sedona.html">#VISITSEDONA</a><br>
-  <div class="footer-social"> 
+  <div class="footer-social">
   <ul>
   <li><a class="social-button" href="#">Твитер</a></li>
   <li><a class="social-button" href="#">Фейсбук</a></li>
@@ -99,7 +111,7 @@
   <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
 </p>
 </footer>
-    
+
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
