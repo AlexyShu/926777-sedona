@@ -17,8 +17,10 @@
       <a href="index.html"><img src="img/logo.jpg" alt="Логотип Седона"></a>
 </header>
 <main>
-  <section class="form">  
+  <section class="form">
 <!-- Тут будет фоновое изображение-->
+<!-- Тут фонового изображения быть не должно. Фоны ставятся средствами css. Об этом расскажут в последующих лекциях. -->
+
   <!--Тут будет форма-->
 </section>
 <div class="filters">
@@ -30,8 +32,9 @@
       <li><a href="type.html">По типу</a></li>
       <li><a href="rating.html">По рейтингу</a></li>
     </ul>
-    <ul> 
+    <ul>
       <li class="visually-hidden"><a href="button.html">По возрвстанию</a></li>
+<!-- Если ты задашь класс visually-hidden для всего li, то ты скроешь его полностью - и ссылку и стрелку. Тебе нужно скрыть только текст. Для этого нужно текстовое описание обернуть в span, которому и присвоишь класс visually-hidden -->
       <li><a href="button.html">По убыванию</a></li>
     </ul>
 </div>
