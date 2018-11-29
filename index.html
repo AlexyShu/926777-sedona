@@ -12,7 +12,7 @@
           <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
           <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
           <li><a href="map.html">КАРТА ШТАТА</a></li>
-          <li><a href="cotalg.html">ГОСТИНИЦЫ</a></li>
+          <li><a href="sedona_hotels.html">ГОСТИНИЦЫ</a></li>
         </ul>
   		</nav>
   		<a><img src="img/logo.svg" alt="Логотип Седона"></a>
@@ -21,7 +21,7 @@
 	<section>
     <img src="img/main_index.jpg" alt="Главная картинка">
   </section>
-  <section >
+  <section class="advantage-list">
     <h1> Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
     <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
   	<ul>
@@ -72,10 +72,16 @@
     </li>
     </ul>
   </section>
-  <section>
+  <section class="form">
     <h3>Заинтересовались?</h3>
     <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      <!--Тут будет форма-->
+      <form action="#" method="get">
+        <p>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</p>
+        <label>Дата заезда:<input type="text" name="date" value="24 апреля 2017"></label><br>
+        <label>Дата выезда:<input type="text" name="date" value="4 июля 2017"></label><br>
+        <label>Взрослые:<input type="text" name="adults" value="2"></label>
+        <label>Дети:<input type="text" name="children" value="2"></label>
+      </form>
   </section>
   <section class="map">
       <img src="img/map.jpg">
@@ -90,7 +96,7 @@
     <li><a class="social-button" href="#">Ютуб</a></li>
    </ul>
  <p class="footer-copyright">
-  <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+  <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
 </p>
 </footer>
 

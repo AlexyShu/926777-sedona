@@ -11,16 +11,34 @@
           <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
           <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
           <li><a href="map.html">КАРТА ШТАТА</a></li>
-          <li class="site-navigation-current"><a href="cotalg.html">ГОСТИНИЦЫ</a></li>
+          <li class="site-navigation-current">ГОСТИНИЦЫ</li>
         </ul>
   		</nav>
       <a href="index.html"><img src="img/logo.svg" alt="Логотип Седона"></a>
 </header>
 <main>
-  <section class="form">
 <img src="img/main_background.jpg" alt="фон">
-
-  <!--Тут будет форма-->
+<section class="form">
+    <form action="#" method="get">
+      <div class="facilities">
+        <p>Инфраструктура:</p>
+          <label><input type="checkbox" name="pool" checked>Бассейн</label><br>
+          <label><input type="checkbox" name="parking">Парковка</label><br>
+          <label><input type="checkbox" name="wifi">Wi-fi</label>
+     </div>
+     <div class="accommodation">
+        <p>Тип жилья:</p>
+         <label><input type="checkbox" name="hotel" checked>Гостиница</label><br>
+         <label><input type="checkbox" name="motel" checked>Мотель</label><br>
+         <label><input type="checkbox" name="apartments" checked>Апартаменты</label>
+     </div>
+     <div class="price-controls">
+       <p>Стоимость в сутки (Р):</p>
+          <label class="min-price"><input name="min-price" type="text" value="от 0"></label>
+          <label class="max-price"> <input name="max-price" type="text" value="до 3000"></label><br>
+          <label class="visually-hidden">Показать</label><input type="submit" value="Показать">
+      </div>
+    </form> 
 </section>
 <div class="filters">
   <h2 class="visually-hidden">Фильтр</h2>
@@ -93,7 +111,7 @@
    </ul>
    <div class=copyright">
  <p class="footer-copyright">
-  <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+  <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
 </p>
 </footer>
 
