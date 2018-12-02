@@ -20,6 +20,7 @@
 <main>
 <img src="img/main_background.jpg" alt="фон">
 <section class="form">
+
     <form action="#" method="get">
       <fieldset>
         <legend>Инфраструктура:</legend>
@@ -33,10 +34,22 @@
          <label><input type="checkbox" name="motel" checked>Мотель</label>
          <label><input type="checkbox" name="apartments" checked>Апартаменты</label>
      </fieldset>
+
      <fieldset>
        <legend>Стоимость в сутки (Р):</legend>
+          <div class="range-controls">
           <label class="min-price"><input name="min-price" type="text" value="от 0"></label>
           <label class="max-price"> <input name="max-price" type="text" value="до 3000"></label>
+        </div>   
+
+          <div class="range-controls">
+           <div class="scale">
+            <div class="bar" style="margin-left: 20%; width: 30%"></div>
+          </div>
+          <div class="toggle toggle-min"></div>
+          <div class="toggle toggle-max"></div>
+        </div>
+
       </fieldset>
     </form>
     <button>Показать</button>
