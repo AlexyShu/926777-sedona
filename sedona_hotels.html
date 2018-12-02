@@ -20,25 +20,25 @@
 <img src="img/main_background.jpg" alt="фон">
 <section class="form">
     <form action="#" method="get">
-      <div class="facilities">
-        <p>Инфраструктура:</p>
+      <fieldset>
+        <legend>Инфраструктура:</legend>
           <label><input type="checkbox" name="pool" checked>Бассейн</label><br>
           <label><input type="checkbox" name="parking">Парковка</label><br>
           <label><input type="checkbox" name="wifi">Wi-fi</label>
-     </div>
-     <div class="accommodation">
-        <p>Тип жилья:</p>
+     </fieldset>
+     <fieldset>
+        <legend>Тип жилья:</legend>
          <label><input type="checkbox" name="hotel" checked>Гостиница</label><br>
          <label><input type="checkbox" name="motel" checked>Мотель</label><br>
          <label><input type="checkbox" name="apartments" checked>Апартаменты</label>
-     </div>
-     <div class="price-controls">
-       <p>Стоимость в сутки (Р):</p>
+     </fieldset>
+     <fieldset>
+       <legend>Стоимость в сутки (Р):</legend>
           <label class="min-price"><input name="min-price" type="text" value="от 0"></label>
           <label class="max-price"> <input name="max-price" type="text" value="до 3000"></label><br>
-          <label class="visually-hidden">Показать</label><input type="submit" value="Показать">
-      </div>
+      </fieldset>
     </form> 
+    <button>Показать</button>
 </section>
 <div class="filters">
   <h2 class="visually-hidden">Фильтр</h2>

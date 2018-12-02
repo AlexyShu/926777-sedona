@@ -75,12 +75,15 @@
   <section class="form">
     <h3>Заинтересовались?</h3>
     <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+    <button>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
       <form action="#" method="get">
-        <p>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</p>
-        <label>Дата заезда:<input type="text" name="date" value="24 апреля 2017"></label><br>
-        <label>Дата выезда:<input type="text" name="date" value="4 июля 2017"></label><br>
-        <label>Взрослые:<input type="text" name="adults" value="2"></label>
-        <label>Дети:<input type="text" name="children" value="2"></label>
+        <div><label>Дата заезда:<input type="text" name="date" value="24 апреля 2017"></label><button>календарь</button></div>
+        <div><label>Дата выезда:<input type="text" name="date" value="4 июля 2017"></label><button>календарь</button></div>
+        <div>
+          <label>Взрослые:<input type="text" name="adults" value="2"></label><button>-</button><button>+</button>
+          <label>Дети:<input type="text" name="children" value="2"></label></label><button>-</button><button>+</button>
+        </div>
+        <!-- Не вижу кнопок у формы. http://prntscr.com/loupyv -->
       </form>
   </section>
   <section class="map">
