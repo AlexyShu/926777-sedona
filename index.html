@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>SEDONA </title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
 
   <body>
   	<header class="main header">
   		<nav class="main-navigation">
-        <ul slass="site-navigation">
+        <ul class="site-navigation">
           <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
           <li><a href="gallery.html">ФОТО И ВИДЕО</a></li>
           <li><a href="map.html">КАРТА ШТАТА</a></li>
@@ -24,10 +26,10 @@
   </section>
   <section class="advantage-list">
     <h1> Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
-    <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+    <p class="advantage">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
   	<ul>
      <li>
-      <div>
+      <div class="advantage-1">
         <h2>НАСТОЯЩИЙ ГОРОДОК</h2>
         <p>— №1 —</p>
         <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
@@ -51,10 +53,14 @@
       </ul>
       </li>
     <li>
-     <div><img src="img/index_pic2.jpg" alt="Картинка-2"></div>
-      <div><h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
+     <div>
+      <img src="img/index_pic2.jpg" alt="Картинка-2">
+    </div>
+      <div class="advantage-2">
+        <h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
        <p>— №2 —</p>
-        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p></div>
+        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+      </div>
     </li>
     <li>
       <h2>НЕБОЛЬШАЯ ПЛОЩАДЬ</h2>
@@ -74,27 +80,35 @@
     </ul>
   </section>
   <section class="form">
-    <h3>Заинтересовались?</h3>
+    <div class="hotels-form">
+    <h3>ЗАИНТЕРЕСОВАЛИСЬ?</h3>
     <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-    <button>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+  </div>
+    <button class="hotels-search">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
       <form action="#" method="get">
-        <div>
-          <label>Дата заезда:<input type="text" name="date" value="24 апреля 2017"></label>
-          <button>календарь</button></div>
-        <div>
-          <label>Дата выезда:<input type="text" name="date" value="4 июля 2017"></label>
-          <button>календарь</button></div>
-        <div>
-          <label>Взрослые:<input type="text" name="adults" value="2"></label>
-          <button>-</button>
-          <button>+</button>
+        <div class="form-1">
+          <label>Дата заезда:<input class="appointment-item" type="text" name="date" value="24 апреля 2017"></label>
+          <button>календарь</button>
         </div>
-        <div>
-          <label>Дети:<input type="text" name="children" value="2"></label>
-          <button>-</button>
-          <button>+</button>
+        <div class="form-1">
+          <label>Дата выезда:<input class="appointment-item" type="text" name="date" value="4 июля 2017"></label>
+          <button>календарь</button>
         </div>
-        <button type="submit">Найти</button>
+        <div class="form-1">
+          <label>Взрослые:
+          <button>-</button>
+          <input class="appointment-item" type="text" name="adults" value="2">
+          <button>+</button>
+          </label>
+        </div>
+        <div class="form-1">
+          <label>Дети:
+          <button>-</button>
+          <input class="appointment-item" type="text" name="children" value="2">
+          <button>+</button>
+          </label>
+        </div>
+        <button class="button" type="submit">Найти</button>
       </form>
   </section>
   <section class="map">
@@ -110,7 +124,7 @@
     <li><a class="social-button" href="#">Ютуб</a></li>
    </ul>
  <p class="footer-copyright">
-  <a class="button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+  <a class="htmlacademy" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
 </p>
 </footer>
 
