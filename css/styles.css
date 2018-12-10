@@ -52,6 +52,7 @@ html {
 	padding: 0;
 	list-style: none;
 	justify-content: space-around;
+	text-align: center;
 }
 
 .main-header-logo{
@@ -491,6 +492,7 @@ list-style: none;
 .hotels-search-form {
 	width: 470px;
 	padding: 50px;
+
 }
 
 .map {
@@ -527,4 +529,32 @@ list-style: none;
 .footer-copyright {
 	width: 400px;
 	margin-right: 90px;
+}
+
+
+.hotels {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
+.hotel {
+	width: 1200px;
+	list-style: none;
+
+}
+
+
+.form-page2 {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
+.accommodation,
+.type,
+.price {
+	width: 150px;
 }

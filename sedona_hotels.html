@@ -22,20 +22,24 @@
 <main>
 <section class="form-page2">
     <form action="#" method="get">
+      <div class="accommodation">
       <fieldset class="form-2">
         <legend>Инфраструктура:</legend>
           <label><input class="checkbox" type="checkbox" name="pool" checked>Бассейн</label>
           <label><input class="checkbox" type="checkbox" name="parking">Парковка</label>
           <label><input class="checkbox" type="checkbox" name="wifi">Wi-fi</label>
      </fieldset>
+   </div>
+   <div class="type">
      <fieldset class="form-2">
         <legend>Тип жилья:</legend>
          <label><input class="checkbox" type="checkbox" name="hotel" checked>Гостиница</label>
          <label><input class="checkbox" type="checkbox" name="motel" checked>Мотель</label>
          <label><input class="checkbox" type="checkbox" name="apartments" checked>Апартаменты</label>
      </fieldset>
+   </div>
 
-
+      <div class="price">
      <fieldset class="form-2">
        <legend>Стоимость в сутки (Р):</legend>
           <div class="range-controls">
@@ -50,10 +54,12 @@
           <div class="toggle toggle-min"></div>
           <div class="toggle toggle-max"></div>
         </div>
-
       </fieldset>
+      </div>
+    </div>
     </form>
     <button class="form-2">Показать</button>
+
 </section>
 <div class="filters">
   <h2 class="visually-hidden">Фильтр</h2>
