@@ -8,7 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
 
-  <body>
+  <body> 
+    <div class="wrap">
   	<header class="main-header">
         <nav class="main-navigation">
          <ul class="site-navigation">
@@ -26,7 +27,7 @@
   </section>
   <section class="advantage-list">
     <div class="designation">
-    <h1> Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
+    <h1> Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h1>
     <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
   </div>
   	<ul class="advantage">
@@ -38,7 +39,7 @@
         <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
       </div>
       <div class="advantage-1-pic">
-        <img src="img/index_pic1.jpg" alt="Картинка-1">
+        <img class="pic-1" src="img/index_pic1.jpg" alt="Картинка-1">
       </div>
     </div>
       <div class="advantage-4">
@@ -61,7 +62,7 @@
     <li>
      <div class="advantage-2">
       <div class="advantage-2-pic">
-      <img src="img/index_pic2.jpg" alt="Картинка-2">
+      <img class="pic-1" src="img/index_pic2.jpg" alt="Картинка-2">
       </div>
       <div class="advantage-item-2">
         <h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
@@ -90,12 +91,13 @@
     </ul>
   </section>
   <section class="form">
-    <div class="hotels-form">
+    
+  <div class="hotels-form">
     <h3>ЗАИНТЕРЕСОВАЛИСЬ?</h3>
     <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+     <button class="hotels-search">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
   </div>
-  
-    <button class="hotels-search">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+
       <form class="hotels-search-form" action="#" method="get">
         <div class="form-1">
           <label>Дата заезда:<input class="appointment-item" type="text" name="date" value="24 апреля 2017"></label>
@@ -105,14 +107,13 @@
           <label>Дата выезда:<input class="appointment-item" type="text" name="date" value="4 июля 2017"></label>
           <button>календарь</button>
         </div>
-        <div class="form-1">
+        <div class="form-1-1">
           <label>Взрослые:
           <button>-</button>
           <input class="appointment-item" type="text" name="adults" value="2">
           <button>+</button>
           </label>
-        </div>
-        <div class="form-1">
+
           <label>Дети:
           <button>-</button>
           <input class="appointment-item" type="text" name="children" value="2">
@@ -140,7 +141,7 @@
 </p>
 </footer>
 
-
+</div>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
 </html>
