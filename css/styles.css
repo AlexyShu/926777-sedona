@@ -221,12 +221,19 @@ line-height: 26px;
 
 
 .appointment-item {
-	font: inherit;
 	text-align: center;
-	vertical-align: middle;
 	color: #000000;
 	background-color: #f2f2f2;
 	border: none;
+	width: 40px;
+}
+
+.appointment-item-date {
+	text-align: center;
+	color: #000000;
+	background-color: #f2f2f2;
+	border: none;
+	width: 308px;
 }
 
 
@@ -319,7 +326,8 @@ line-height: 26px;
 	list-style: none;
 }
 
-.filters p {
+.sorting {
+	margin: 0;
 	font-size: 12px;
 	line-height: 18px;
 	color: #000000;
@@ -634,22 +642,26 @@ line-height: 26px;
 
 .hotels-search-form {
 	font-weight: 700;
-	width: 550px;
-	margin: auto;
+	width: 574px;
+	margin: 0 auto;
 	padding: 55px;
 }
 
 
 .form-1 {
-	width: 460px;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 .form-1-1 {
-	width: 460px;
-	padding-bottom: 53px;
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 53px;
 }
 
+
+.form-bottom {
+	display: flex;
+}
 
 
 
@@ -726,6 +738,7 @@ line-height: 26px;
 .filters {
 	display: flex;
 	flex-direction: row;
+	align-items: flex-end;
 	margin: 0;
 	padding: 0;
 	padding-bottom: 35px;
@@ -746,7 +759,6 @@ line-height: 26px;
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	padding-top: 5px;
 	width: 288px;
 }
 

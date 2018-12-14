@@ -100,25 +100,31 @@
 
       <form class="hotels-search-form" action="#" method="get">
         <div class="form-1">
-          <label>Дата заезда:<input class="appointment-item" type="text" name="date" value="24 апреля 2017"></label>
+          <label>Дата заезда:<input class="appointment-item-date" type="text" name="date" value="24 апреля 2017"></label>
           <button>календарь</button>
         </div>
         <div class="form-1">
-          <label>Дата выезда:<input class="appointment-item" type="text" name="date" value="4 июля 2017"></label>
+          <label>Дата выезда:<input class="appointment-item-date" type="text" name="date" value="4 июля 2017"></label>
           <button>календарь</button>
         </div>
+
+        <div class="form-bottom">
         <div class="form-1-1">
-          <label>Взрослые:
+          <label>Взрослые:</label>
           <button>-</button>
           <input class="appointment-item" type="text" name="adults" value="2">
           <button>+</button>
-          </label>
-
-          <label>Дети:
+        </div>
+          
+         <div class="form-1-1">
+          <label>Дети:</label>
           <button>-</button>
           <input class="appointment-item" type="text" name="children" value="2">
           <button>+</button>
-          </label>
+        </div>
+      </div>
+
+          
           </div>
         <button class="button" type="submit">Найти</button>
       </form>
