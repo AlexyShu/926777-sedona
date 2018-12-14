@@ -343,7 +343,9 @@ line-height: 26px;
 
 
 .checkbox {
- border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
+	color: #ffffff;
+	background-color: transparent;
 }
 
 
@@ -402,7 +404,6 @@ line-height: 26px;
 
 .main-picture {
 	width: 1200px;
-	height: 773px;
 }
 
 .designation {
@@ -768,10 +769,22 @@ line-height: 26px;
 .hotel {
 	display: flex;
 	flex-direction: row;
+	text-align: center;
 	border-bottom: 1px solid #e5e5e5;
 	padding-bottom: 30px;
 
 }
+
+
+
+
+
+.hotel-info {
+	width: 258px;
+	margin-left: 30px;
+	
+}
+
 
 .rating {
 	margin-left: auto;
