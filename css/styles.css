@@ -195,7 +195,7 @@ line-height: 26px;
 	background-color: #503e33;
 }
 
-.button {
+.btn-hotel-seach {
 	font: inherit;
 	text-align: center;
 	color: #ffffff;
@@ -205,16 +205,18 @@ line-height: 26px;
 	border: none;
 	font-size: 21px;
 	line-height: 26px;
+	font-weight: 700;
+	padding: 19px 0;
 	width: 460px;
 }
 
 
-.button:hover {
+.btn-hotel-seach:hover {
 	color: #ffffff;
 	background-color: #669ec0;
 }
 
-.button:active {
+.btn-hotel-seach:active {
 	color: #88b6d1;
 	background-color: #5496bd;
 }
@@ -254,6 +256,7 @@ line-height: 26px;
 
 
 .footer-social {
+	display: flex;
 	text-align: center;
 }
 
@@ -623,7 +626,9 @@ line-height: 26px;
 }
 
 
-
+.btn-calendar {
+	width: 38px;
+}
 
 .map {
 	display: flex;
