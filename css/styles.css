@@ -212,6 +212,7 @@ line-height: 26px;
 }
 
 .btn-hotel-seach {
+	display: inline-block;
 	font: inherit;
 	text-align: center;
 	color: #ffffff;
@@ -222,8 +223,9 @@ line-height: 26px;
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: 700;
-	padding: 19px 0;
-	width: 460px;
+	margin: 0;
+	padding: 19px 198px;
+
 }
 
 
@@ -274,12 +276,23 @@ line-height: 26px;
 .footer-social {
 	display: flex;
 	text-align: center;
+	list-style: none;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 0;
+
 }
 
 .social-button {
+	display: flex;
 	color: #ffffff;
 	background-color: #81b3d2;
 	border: none;
+	align-items: center;
+	justify-content: center;
+	margin-left: 6px;
+
 }
 
 .social-button:hover {
@@ -576,8 +589,15 @@ line-height: 26px;
 	padding: 0;
 	list-style: none;
 	text-align: center;
+}
+
+
+.advantage-4 {
+	padding: 0;
+	margin: 0;
 	margin-bottom: 85px;
 }
+
 
 .advantage-item-accomodation,
 .advantage-item-food,
@@ -597,7 +617,6 @@ line-height: 26px;
 	padding-bottom: 26px;
 	font-size: 21px;
 	line-height: 21px;
-	font-weight: 700px;
 }
 
 .advantage-item-accomodation h3::before {
@@ -650,7 +669,7 @@ line-height: 26px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	margin-bottom: 50px;
+	margin-bottom: 55px;
 	background-color: #eeeeee;
 }
 
@@ -658,7 +677,9 @@ line-height: 26px;
 .advantage-item-3,
 .advantage-item-4,
 .advantage-item-5 {
+	display: block;
 	width: 400px;
+	margin: 0;
 	padding-top: 50px;
 	padding-bottom: 60px;
 	padding-right: 70px;
@@ -688,10 +709,12 @@ line-height: 26px;
 }
 
 .hotels-search {
+	display: inline-block;
 	margin: 0 auto;
-	padding: 0;
-	width: 550px;
-	height: 85px;
+	padding-top: 33px;
+	padding-bottom: 33px;
+	padding-left: 145px;
+	padding-right: 145px;
 }
 
 
@@ -700,11 +723,9 @@ line-height: 26px;
 }
 
 .map {
-	display: flex;
+	display: block;
 	margin: 0;
 	padding: 0;
-	width: 1200px;
-	height: 593px;
 	margin-bottom: 30px;
 
 }
@@ -713,6 +734,7 @@ line-height: 26px;
 	display: flex;
 	flex-direction: row;
 	margin: 0;
+	margin-bottom: 36px;
 	padding: 0;
 	align-items: center;
 }
