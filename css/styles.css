@@ -54,6 +54,7 @@ html {
 
 .site-navigation {
 	display: flex;
+	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -72,13 +73,28 @@ html {
 }
 
 
-.navigation-item {
-	width: 234px;
+
+.site-navigation a {
+	display: block;
+	vertical-align: middle;
+    color: #000000;
+    margin: 0;
+	padding: 0;
+    padding-top: 20px;
+    padding-bottom: 22px;
+
 }
 
 
-.site-navigation a {
-    color: #000000;
+.site-nav-info,
+.site-nav-hitels {
+	width: 200px;
+}
+
+
+.site-nav-gallery,
+.site-nav-map {
+	width: 400px;
 }
 
 
@@ -437,9 +453,7 @@ line-height: 26px;
 
 }
 
-.main-picture {
-	width: 1200px;
-}
+
 
 .designation {
 	display: flex;
@@ -449,13 +463,14 @@ line-height: 26px;
 	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
-	margin-bottom: 53px;
+	margin-bottom: 57px;
 }
 
 
 .designation h1 {
 	font-size: 21px;
 	line-height: 26px;
+	font-weight: 400;
 	margin: 0;
 	padding: 0;
 	margin-bottom: 36px;
@@ -473,31 +488,63 @@ line-height: 26px;
 .advantage-1 {
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 60px;
+	margin-bottom: 54px;
 }
 
 .advantage-item-1 {
+	display: block;
 	border-color: #81b3d2;
 	color: #ffffff;
-	padding: 0;
 	margin: 0;
-	padding-right: 50px;
-	padding-left: 50px;
-	margin-bottom: 63px;
-	width: 400px;
+	padding-right: 46px;
+	padding-left: 46px;
+	padding-bottom: 40px;
+	padding-top: 50px;
+
 }
 
 
 .advantage-item-1 h2 {
+	font-size: 21px;
+	line-height: 21px;
 	margin: 0;
 	padding: 0;
-	padding-top: 47px;
-	padding-bottom: 24px;
+	padding-bottom: 26px;
 
 }
 
+.advantage-item-2 {
+   display: block;
+	border-color: #81b3d2;
+	color: #ffffff;
+	margin: 0;
+	padding-right: 46px;
+	padding-left: 46px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
 
-.advantage-item-1 p {
+
+
+.advantage-item-2 h2 {
+    font-size: 21px;
+	line-height: 21px;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 26px;
+}
+
+.advantage-number {
+	font-size: 14px;
+	line-height: 21px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 28px;
+}
+
+.advantage-text {
+	font-size: 14px;
+	line-height: 21px;
 	margin: 0;
 	padding: 0;
 }
@@ -512,35 +559,6 @@ line-height: 26px;
 	display: block;
 }
 
-.advantage {
-	display: flex;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-align: center;
-	margin-bottom: 85px;
-}
-
-.advantage-item {
-	width: 400px;
-}
-
-.advantage-item h3 {
-	margin: 0;
-	padding: 0;
-	padding-bottom: 26px;
-
-}
-
-.advantage-item p {
-	margin: 0 auto;
-
-}
-
-.advantage-2 {
-	display: flex;
-	flex-direction: row;
-}
 
 .advantage-2-pic {
 	margin:0;
@@ -552,25 +570,76 @@ line-height: 26px;
 }
 
 
-.advantage-item-2 {
-    margin: 0;
+.advantage {
+	display: flex;
+	margin: 0;
 	padding: 0;
-	padding-top: 47px;
-	padding-bottom: 24px;
+	list-style: none;
+	text-align: center;
+	margin-bottom: 85px;
+}
+
+.advantage-item-accomodation,
+.advantage-item-food,
+.advantage-item-gifts {
+	display: block;
+	width: 400px;
+
+}
+
+.advantage-item-accomodation h3,
+.advantage-item-food h3,
+.advantage-item-gifts h3 {
+    position: relative;
+	margin: 0;
+	margin-top: 104px;
+	padding: 0;
+	padding-bottom: 26px;
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: 700px;
+}
+
+.advantage-item-accomodation h3::before {
+	content: url(../img/icon-1.svg);
+	position: absolute;
+	height: 70px;
+	width: 74px;
+	top: -105px;
+	left: 50%;
+}
+
+.advantage-item-food h3::before {
+	content: url(../img/icon-2.svg);
+	position: absolute;
+	height: 70px;
+	width: 74px;
+	top: -105px;
+	left: 50%;
 }
 
 
-.advantage-item-2 h2 {
-	margin: 0;
-	padding: 0;
-	padding-top: 47px;
-	padding-bottom: 24px;
+.advantage-item-gifts h3::before {
+	content: url(../img/icon-3.svg);
+	position: absolute;
+	height: 70px;
+	width: 74px;
+	top: -105px;
+	left: 50%;
+}
+
+.advantage-item-accomodation p,
+.advantage-item-food p,
+.advantage-item-gifts p {
+	margin: 0 auto;
+	font-size: 14px;
+	line-height: 21px;
 
 }
 
-.advantage-item-2 p {
-	margin: 0;
-	padding: 0;
+.advantage-2 {
+	display: flex;
+	flex-direction: row;
 }
 
 
@@ -828,4 +897,26 @@ line-height: 26px;
 
 .rating {
 	margin-left: auto;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.visually-hidden:not(:focus):not(:active) {
+	position: absolute;
+
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+
+	white-space: nowrap;
+
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
