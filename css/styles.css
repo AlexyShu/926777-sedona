@@ -978,6 +978,7 @@ line-height: 26px;
 
 .price-controls {
 	display: flex;
+	border: 2px solid #ffffff;
 }
 
 
@@ -985,6 +986,7 @@ line-height: 26px;
 .max-price,
 .min-price {
   text-align: center;
+  border: none;
 }
 
 
@@ -994,8 +996,6 @@ line-height: 26px;
   width: 160px;
   text-align: center;
   color: #ffffff;
-  border: 2px solid #ffffff;
-  border-radius: 5px;
   background: transparent;
 }
 
