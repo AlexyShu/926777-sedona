@@ -217,6 +217,7 @@ line-height: 26px;
 	font-weight: 700;
 	margin: 0;
 	padding: 19px 0px;
+	cursor: pointer;
 
 }
 
@@ -266,9 +267,10 @@ line-height: 26px;
 
 
 .appointment-item-date:focus {
+	outline: none;
 	color: #000000;
 	background-color: #ffffff;
-	border: 1px solid #e5e5e5;
+	border: 2px solid #e5e5e5;
 }
 
 
@@ -309,9 +311,10 @@ line-height: 26px;
 }
 
 .appointment-item:focus {
+	outline: none;
 	color: #000000;
 	background-color: #ffffff;
-	border: 1px solid #e5e5e5;
+	border: 2px solid #e5e5e5;
 }
 
 .btn-plus,
@@ -631,7 +634,7 @@ line-height: 26px;
 .designation h1 {
 	font-size: 21px;
 	line-height: 26px;
-	font-weight: 400;
+	font-weight: 700;
 	margin: 0;
 	padding: 0;
 	margin-bottom: 36px;
@@ -867,6 +870,7 @@ line-height: 26px;
 	padding-bottom: 33px;
 	padding-left: 0px;
 	padding-right: 0px;
+	cursor: pointer;
 }
 
 
@@ -962,6 +966,8 @@ line-height: 26px;
 
 .form-page2 {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	margin: 0;
 	margin-bottom: 30px;
 	padding: 0;
@@ -1012,6 +1018,7 @@ line-height: 26px;
 	border: 2px solid #ffffff;
     position: relative;
     padding: 7px 0;
+    border-radius: 3px;
 }
 
 .price-controls::after {
@@ -1095,6 +1102,7 @@ line-height: 26px;
 	padding: 9px 34px;
 	text-align: center;
 	text-transform: uppercase;
+	border-radius: 3px;
 }
 
 
@@ -1162,7 +1170,7 @@ line-height: 26px;
 }
 
 
-.dir-up polygon:active, {
+.dir-up polygon:active {
 	fill: #81b3d2;
 }
 
