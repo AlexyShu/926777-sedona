@@ -206,6 +206,7 @@ line-height: 26px;
 	display: inline-block;
 	font: inherit;
 	text-align: center;
+	width: 100%;
 	color: #ffffff;
 	vertical-align: middle;
 	text-transform: uppercase;
@@ -215,7 +216,7 @@ line-height: 26px;
 	line-height: 26px;
 	font-weight: 700;
 	margin: 0;
-	padding: 19px 198px;
+	padding: 19px 0px;
 
 }
 
@@ -347,16 +348,20 @@ line-height: 26px;
   background: #a9a9a9;
 }
 
-.btn-plus:hover {
-  content:"";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 11px;
-  height: 3px;
-  transform: translate(-50%, -50%);
-  background: url(../img/plus-hover.svg);
+
+.btn-plus:hover::before,
+.btn-plus:hover::after,
+.btn-minus:hover::before {
+  background: #000000;
 }
+
+
+.btn-plus:active::before,
+.btn-plus:active::after,
+.btn-minus:active::before {
+  background: #81b3d2;
+}
+
 
 .btn-minus::before {
   content:"";
@@ -856,22 +861,17 @@ line-height: 26px;
 
 .hotels-search {
 	display: inline-block;
+	width: 574px;
 	margin: 0 auto;
 	padding-top: 33px;
 	padding-bottom: 33px;
-	padding-left: 145px;
-	padding-right: 145px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
 
-.map {
-	display: block;
-	margin: 0;
-	padding: 0;
-	margin-bottom: 30px;
 
-}
 
 .main-footer {
 	display: flex;
@@ -901,13 +901,30 @@ line-height: 26px;
 }
 
 
+.map {
+	display: block;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+
+}
+
+
+.form {
+	position: relative;
+}
 
 
 .hotels-search-form {
+	position: absolute;
 	font-weight: 700;
 	width: 574px;
 	margin: 0 auto;
 	padding: 55px;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #ffffff;
 }
 
 
@@ -931,7 +948,7 @@ line-height: 26px;
 
 
 .form1-chld {
-	padding-left: 53px;
+	padding-left: 50px;
 	padding-right: 28px; 
 	
 }
@@ -993,8 +1010,8 @@ line-height: 26px;
 .price-controls {
 	display: flex;
 	border: 2px solid #ffffff;
-  position: relative;
-  padding: 7px 0;
+    position: relative;
+    padding: 7px 0;
 }
 
 .price-controls::after {
@@ -1022,6 +1039,7 @@ line-height: 26px;
   font-size: 14px;
   line-height: 21px;
   width: 160px;
+  text-transform: uppercase;
   text-align: center;
   color: #ffffff;
   background: transparent;
