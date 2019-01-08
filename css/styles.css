@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'PT Sans', sans-serif, Arial;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 21px;
@@ -34,7 +34,7 @@ html {
 	width: 1200px;
 	margin: 0 auto;
 	background-color: #fefefe;
-	box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, .35)
+	box-shadow: 0 3px 7px 0px rgba(0, 0, 0, .35);
 }
 
 .main-header {
@@ -737,7 +737,6 @@ line-height: 26px;
 
 
 .advantage {
-	display: flex;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -749,6 +748,10 @@ line-height: 26px;
 	padding: 0;
 	margin: 0;
 	margin-bottom: 85px;
+}
+
+.flex {
+	display: flex;
 }
 
 
@@ -908,12 +911,24 @@ line-height: 26px;
 
 
 .map {
-	display: block;
+	display: flex;
+	position: relative;
 	margin: 0;
 	padding: 0;
 	margin-bottom: 30px;
 
 }
+
+
+.map img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+ 
+
+
 
 
 .form {
@@ -922,6 +937,7 @@ line-height: 26px;
 
 
 .hotels-search-form {
+	display: none;
 	position: absolute;
 	font-weight: 700;
 	width: 574px;
@@ -932,8 +948,13 @@ line-height: 26px;
 	transform: translateX(-50%);
 	background-color: #ffffff;
 	box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, .15);
+	 z-index: 1;
 }
 
+
+.modal-show {
+	display: block;
+}
 
 .form-1 {
 	display: flex;
