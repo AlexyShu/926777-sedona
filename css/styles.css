@@ -60,7 +60,7 @@ html {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	justify-content: space-around;
+	
 	text-align: center;
 }
 
@@ -76,19 +76,20 @@ html {
 
 
 
-.site-navigation a {
-	display: block;
-	vertical-align: middle;
-    color: #000000;
-    margin: 0;
-	padding: 0;
-    padding-top: 20px;
-    padding-bottom: 22px;
-
+.main-picture {
+	width: 100%;
+	height: 504px;
 }
 
+
+
+.site-navigation a {
+	color: #000000;
+}
+    
+
+
 .site-nav-hotels {
-	display: block;
 	vertical-align: middle;
     color: #766357;
     margin: 0;
@@ -97,18 +98,45 @@ html {
     padding-bottom: 22px;
 }
 
+.navigation-item {
+	display: block;
+	vertical-align: middle;
+    color: #000000;
+    margin: 0;
+	padding: 0;
+    padding-top: 17px;
+    padding-bottom: 18px;
+	width: 300px;
+}
 
 .site-nav-info,
+.site-nav-gallery {
+	text-align: left;
+}
+
+.site-nav-map,
 .site-nav-hotels {
-	width: 200px;
+	text-align: right;
 }
 
 
-.site-nav-gallery,
+.site-nav-info {
+	padding-left: 72px;
+}
+
+.site-nav-gallery {
+	padding-left: 14px;
+}
+
+
+.site-nav-hotels {
+	padding-right: 72px;
+}
+
+
 .site-nav-map {
-	width: 400px;
+	padding-right: 14px;
 }
-
 
 .site-navigation a:hover {
 	color: #81b3d2;
@@ -244,7 +272,7 @@ line-height: 26px;
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: 700;
-	padding: 6px 10px;
+	padding: 10px 10px;
 }
 
 .appointment-item-date {
@@ -258,7 +286,7 @@ line-height: 26px;
 	color: #000000;
 	background-color: #f2f2f2;
 	border: none;
-	padding: 6px 10px;
+	padding: 8px 10px;
 	margin-left: 20px;
 }
 
@@ -291,7 +319,8 @@ line-height: 26px;
 	fill: #81b3d2;
 }
 
-
+	
+	
 .appointment-item {
 	box-sizing: border-box;
 	text-align: center;
@@ -888,25 +917,23 @@ line-height: 26px;
 	margin: 0;
 	margin-bottom: 36px;
 	padding: 0;
-	align-items: center;
+	text-align: center;
 }
 
 .footer-visitsedona {
 	width: 400px;
-	margin-left: 125px;
+
 }
 
 .footer-social {
     width: 400px;
     list-style: none;
-    margin-right: 120px;
-    margin-left: 120px;
+
 }
 
 
 .footer-copyright {
 	width: 400px;
-	margin-right: 90px;
 }
 
 
