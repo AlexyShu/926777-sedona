@@ -644,7 +644,7 @@ line-height: 26px;
 	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
-	margin-bottom: 63px;
+	margin-bottom: 61px;
 
 }
 
@@ -658,7 +658,7 @@ line-height: 26px;
 	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
-	margin-bottom: 57px;
+	margin-bottom: 51px;
 }
 
 
@@ -668,7 +668,7 @@ line-height: 26px;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
-	margin-bottom: 36px;
+	margin-bottom: 28px;
 }
 
 
@@ -688,6 +688,7 @@ line-height: 26px;
 
 .advantage-item-1 {
 	display: block;
+	width: 400px;
 	border-color: #81b3d2;
 	color: #ffffff;
 	margin: 0;
@@ -704,7 +705,7 @@ line-height: 26px;
 	line-height: 21px;
 	margin: 0;
 	padding: 0;
-	padding-bottom: 26px;
+	padding-bottom: 21px;
 
 }
 
@@ -714,8 +715,8 @@ line-height: 26px;
 	color: #ffffff;
 	margin: 0;
 	padding-right: 46px;
-	padding-left: 46px;
-	padding-top: 50px;
+	padding-left: 50px;
+	padding-top: 43px;
 	padding-bottom: 40px;
 }
 
@@ -726,7 +727,7 @@ line-height: 26px;
 	line-height: 21px;
 	margin: 0;
 	padding: 0;
-	padding-bottom: 26px;
+	padding-bottom: 25px;
 }
 
 .advantage-number {
@@ -734,7 +735,7 @@ line-height: 26px;
 	line-height: 21px;
 	margin: 0;
 	padding: 0;
-	margin-bottom: 28px;
+	margin-bottom: 22px;
 }
 
 .advantage-text {
@@ -797,9 +798,9 @@ line-height: 26px;
 .advantage-item-gifts h3 {
     position: relative;
 	margin: 0;
-	margin-top: 104px;
+	margin-top: 107px;
 	padding: 0;
-	padding-bottom: 26px;
+	padding-bottom: 24px;
 	font-size: 21px;
 	line-height: 21px;
 }
@@ -809,28 +810,28 @@ line-height: 26px;
 	position: absolute;
 	height: 70px;
 	width: 74px;
-	top: -105px;
+	top: -99px;
 	left: 50%;
 	transform: translateX(-50%)
 }
 
 .advantage-item-food h3::before {
-	content: url(../img/icon-2.svg);
+	content: url(../img/icon-3.svg);
 	position: absolute;
 	height: 70px;
 	width: 74px;
-	top: -105px;
+	top: -99px;
 	left: 50%;
 	transform: translateX(-50%)
 }
 
 
 .advantage-item-gifts h3::before {
-	content: url(../img/icon-3.svg);
+	content: url(../img/icon-2.svg);
 	position: absolute;
 	height: 70px;
 	width: 74px;
-	top: -105px;
+	top: -103px;
 	left: 50%;
 	transform: translateX(-50%)
 }
@@ -843,6 +844,25 @@ line-height: 26px;
 	line-height: 21px;
 
 }
+
+
+.advantage-item-accomodation p {
+	padding-left: 56px;
+	padding-right: 55px;
+}
+
+
+.advantage-item-food p {
+	padding-left: 52px;
+	padding-right: 51px;
+}
+
+
+.advantage-item-gifts p {
+	padding-left: 27px;
+	padding-right: 25px;
+}
+
 
 .advantage-2 {
 	display: flex;
@@ -857,7 +877,7 @@ line-height: 26px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	margin-bottom: 55px;
+	margin-bottom: 20px;
 	background-color: #eeeeee;
 }
 
@@ -868,10 +888,31 @@ line-height: 26px;
 	display: block;
 	width: 400px;
 	margin: 0;
-	padding-top: 50px;
+	padding-top: 25px;
 	padding-bottom: 60px;
-	padding-right: 70px;
-	padding-left: 70px;
+}
+
+
+.advantage-item-3{
+	padding-right: 123px;
+	padding-left: 44px;
+}
+
+
+.advantage-item-4{
+	padding-right: 100px;
+	padding-left: 21px;
+}
+
+
+.advantage-item-5{
+	padding-right: 109px;
+	padding-left: 32px;
+}
+
+
+.advantage-list h2 {
+	    margin-bottom: 22px;
 }
 
 
@@ -886,7 +927,7 @@ line-height: 26px;
     font-size: 30px;
 	font-weight: 700;
 	line-height: 36px;
-	margin-bottom: 32px;
+	margin-bottom: 10px;
 }
 
 
@@ -898,10 +939,10 @@ line-height: 26px;
 
 .hotels-search {
 	display: inline-block;
-	width: 574px;
+	width: 567px;
 	margin: 0 auto;
-	padding-top: 33px;
-	padding-bottom: 33px;
+	padding-top: 27px;
+	padding-bottom: 30px;
 	padding-left: 0px;
 	padding-right: 0px;
 	cursor: pointer;
