@@ -94,8 +94,9 @@ html {
     color: #766357;
     margin: 0;
 	padding: 0;
-    padding-top: 20px;
-    padding-bottom: 22px;
+    padding-top: 17px;
+    padding-bottom: 16px;
+	width: 300px;
 }
 
 .navigation-item {
@@ -105,7 +106,7 @@ html {
     margin: 0;
 	padding: 0;
     padding-top: 17px;
-    padding-bottom: 18px;
+    padding-bottom: 16px;
 	width: 300px;
 }
 
@@ -246,7 +247,7 @@ line-height: 26px;
 	line-height: 26px;
 	font-weight: 700;
 	margin: 0;
-	padding: 19px 0px;
+	padding: 17px 0px;
 	cursor: pointer;
 
 }
@@ -282,7 +283,7 @@ line-height: 26px;
 	line-height: 26px;
 	font-weight: 700;
 	text-transform: uppercase;
-	width: 308px;
+	width: 307px;
 	color: #000000;
 	background-color: #f2f2f2;
 	border: none;
@@ -1008,7 +1009,7 @@ line-height: 26px;
 	display: none;
 	position: absolute;
 	font-weight: 700;
-	width: 574px;
+	width: 567px;
 	margin: 0 auto;
 	padding: 55px;
 	top: 100%;
@@ -1026,13 +1027,13 @@ line-height: 26px;
 
 .form-1 {
 	display: flex;
-	margin-bottom: 30px;
+	margin-bottom: 24px;
 }
 
 .form-1-1 {
 	display: flex;
 	width: 50%;
-	margin-bottom: 53px;
+	margin-bottom: 56px;
 	align-items: center;
 }
 
@@ -1061,14 +1062,14 @@ line-height: 26px;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 0;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 	padding: 0;
 }
 
 .form-page2 form {
 	display: flex;
 	flex-direction: row;
-	margin-bottom: 32px;
+	margin-bottom: 0px;
 }
 
 
@@ -1076,8 +1077,8 @@ line-height: 26px;
 	display: flex;
 	width: 140px;
 	padding: 0;
-	margin-top: 30px;
-	margin-left: 72px;
+	margin-top: 24px;
+	margin-left: 60px;
 	margin-right: 0px;
 	margin-bottom: 0;
 }
@@ -1087,8 +1088,8 @@ line-height: 26px;
 	display: flex;
 	width: 140px;
 	padding: 0;
-	margin-top: 30px;
-	margin-left: 115px;
+	margin-top: 24px;
+	margin-left: 116px;
 	margin-right: 0px;
 	margin-bottom: 0;
 }
@@ -1098,8 +1099,8 @@ line-height: 26px;
 	display: block;
 	width: 320px;
 	padding: 0;
-	margin-top: 30px;
-	margin-left: 348px;
+	margin-top: 24px;
+	margin-left: 344px;
 	margin-right: 0px;
 }
 
@@ -1109,7 +1110,7 @@ line-height: 26px;
 	display: flex;
 	border: 2px solid #ffffff;
     position: relative;
-    padding: 7px 0;
+    padding: 5px 0;
     border-radius: 3px;
 }
 
@@ -1148,7 +1149,7 @@ line-height: 26px;
 .range-controls {
 	position: relative;
 	padding-top: 20px;
-	margin-bottom: 30px;
+	margin-bottom: 22px;
 }
 
 .range-controls .scale {
@@ -1198,7 +1199,7 @@ line-height: 26px;
 	border: 2px solid #ffffff;
 	color: #ffffff;
 	background-color: transparent;
-	margin-left: 84px;
+	margin-left: 96px;
 	padding: 9px 34px;
 	text-align: center;
 	text-transform: uppercase;
@@ -1215,7 +1216,7 @@ line-height: 26px;
 .form-2 legend{
 	margin: 0;
 	padding: 0;
-	padding-bottom: 26px;
+	padding-bottom: 20px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 21px;
@@ -1224,7 +1225,7 @@ line-height: 26px;
 .price-filters legend{
 	margin: 0;
 	padding: 0;
-	padding-bottom: 12px;
+	padding-bottom: 5px;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 21px;
