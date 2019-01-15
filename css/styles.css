@@ -247,6 +247,7 @@ line-height: 26px;
 
 .btn-hotel-seach {
 	display: inline-block;
+	vertical-align: middle;
 	font: inherit;
 	text-align: center;
 	width: 100%;
@@ -276,20 +277,6 @@ line-height: 26px;
 }
 
 
-.appointment-item {
-	text-align: center;
-	color: #000000;
-	background-color: #f2f2f2;
-	border: none;
-	width: 40px;
-	height: 38px;
-	font-size: 14px;
-	line-height: 26px;
-	font-weight: 700;
-	padding: 10px 10px;
-}
-
-
 .appointment-item-date {
 	box-sizing: border-box;
 	text-align: left;
@@ -300,7 +287,7 @@ line-height: 26px;
 	width: 304px;
 	color: #000000;
 	background-color: #f2f2f2;
-	border: none;
+	border: 1px solid #f2f2f2;
 	padding: 8px 10px;
 	margin-left: 20px;
 }
@@ -339,6 +326,7 @@ line-height: 26px;
 		
 .appointment-item {
 	box-sizing: border-box;
+	height: 38px;
 	text-align: center;
 	font-size: 14px;
 	line-height: 26px;
@@ -346,7 +334,7 @@ line-height: 26px;
 	width: 38px;
 	color: #000000;
 	background-color: #f2f2f2;
-	border: none;
+	border: 1px solid #f2f2f2;
 	padding: 6px 10px;
 }
 
@@ -790,6 +778,7 @@ line-height: 26px;
 .advantage-1-pic {
 	margin: 0;
 	padding: 0;
+	background-color: #81b3d2;
 }
 
 
@@ -821,6 +810,7 @@ line-height: 26px;
 	padding: 0;
 	margin: 0;
 	margin-bottom: 85px;
+	background-color: #ffffff;
 }
 
 
@@ -959,7 +949,7 @@ line-height: 26px;
 
 
 .advantage-list h2 {
-	    margin-bottom: 22px;
+	margin-bottom: 22px;
 }
 
 
@@ -988,6 +978,7 @@ line-height: 26px;
 
 .hotels-search {
 	display: inline-block;
+	vertical-align: middle;
 	width: 567px;
 	margin: 0 auto;
 	padding-top: 27px;
@@ -1001,6 +992,7 @@ line-height: 26px;
 .main-footer {
 	display: flex;
 	flex-direction: row;
+	background-color: #ffffff;
 	margin: 0;
 	margin-bottom: 36px;
 	padding: 0;
@@ -1030,6 +1022,7 @@ line-height: 26px;
 .map {
 	display: flex;
 	position: relative;
+	background-color: #ffffff;
 	margin: 0;
 	padding: 0;
 	margin-bottom: 18px;
@@ -1046,6 +1039,7 @@ line-height: 26px;
 
 .form {
 	position: relative;
+	background-color: #ffffff;
 }
 
 
@@ -1065,8 +1059,17 @@ line-height: 26px;
 }
 
 
+@keyframes bounce {
+	0%   {transform: translateX(-1000px);}
+	50%  {transform: translateX(80px);}
+	100% {transform: translateX(0);}
+}
+
+
 .modal-show {
 	display: block;
+	animation-name: bounce;
+	animation-duration: 0.7s;
 }
 
 
@@ -1109,6 +1112,7 @@ line-height: 26px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	background-color: #ffffff;
 	margin: 0;
 	margin-bottom: 25px;
 	padding: 0;
@@ -1249,6 +1253,7 @@ line-height: 26px;
 
 .form-2-button {
 	display: inline-block;
+	vertical-align: middle;
 	height: 36px;
 	border: 2px solid #ffffff;
 	color: #ffffff;
@@ -1304,6 +1309,7 @@ line-height: 26px;
 	display: flex;
 	flex-direction: row;
 	align-items: flex-end;
+	background-color: #ffffff;
 	margin: 0;
 	padding-top: 0;
 	padding-left: 70px;
@@ -1510,7 +1516,7 @@ img {
 
 
 .four-stars {
-	 background-image: url(../img/star.svg);
+	background-image: url(../img/star.svg);
 	width: 90px;
 	height: 17px;
 	background-repeat: space;
@@ -1522,7 +1528,7 @@ img {
 
 
 .three-stars {
-	 background-image: url(../img/star.svg);
+	background-image: url(../img/star.svg);
 	width: 66px;
 	height: 17px;
 	background-repeat: space;
@@ -1533,7 +1539,7 @@ img {
 
 
 .two-stars {
-	 background-image: url(../img/star.svg);
+	background-image: url(../img/star.svg);
 	width: 41px;
 	height: 17px;
 	background-repeat: space;
@@ -1549,6 +1555,9 @@ img {
 }
 
 
+.hotels {
+	background-color: #ffffff;
+}
 
 
 
