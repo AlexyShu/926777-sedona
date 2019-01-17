@@ -16,7 +16,7 @@ img {
 
 
 a {
- text-decoration: none;
+	text-decoration: none;
 }
 
 
@@ -161,8 +161,8 @@ html {
 
 
 .advantage-list h1 {
-font-size: 21px;
-line-height: 26px;
+	font-size: 21px;
+	line-height: 26px;
 }
 
 
@@ -174,8 +174,8 @@ line-height: 26px;
 
 
 .advantage {
-font-size: 14px;
-line-height: 26px;
+	font-size: 14px;
+    line-height: 26px;
 }
 
 
@@ -355,26 +355,26 @@ line-height: 26px;
 
 .btn-plus,
 .btn-minus {
-  width: 38px;
-  height: 38px;
-  font-size: 0;
-  background-color: #f2f2f2;
-  color: #a9a9a9;
-  border: none;
-  border: none;
-  position: relative;
+	width: 38px;
+    height: 38px;
+    font-size: 0;
+    background-color: #f2f2f2;
+    color: #a9a9a9;
+    border: none;
+    border: none;
+    position: relative;
 }
 
 
 .btn-plus::after {
-  content:"";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 11px;
-  height: 3px;
-  transform: translate(-50%, -50%);
-  background: #a9a9a9;
+	content:"";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 11px;
+    height: 3px;
+    transform: translate(-50%, -50%);
+    background: #a9a9a9;
 }
 
 
@@ -393,26 +393,26 @@ line-height: 26px;
 .btn-plus:hover::before,
 .btn-plus:hover::after,
 .btn-minus:hover::before {
-  background: #000000;
+	background: #000000;
 }
 
 
 .btn-plus:active::before,
 .btn-plus:active::after,
 .btn-minus:active::before {
-  background: #81b3d2;
+	background: #81b3d2;
 }
 
 
 .btn-minus::before {
-  content:"";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 11px;
-  height: 3px;
-  transform: translate(-50%, -50%);
-  background: #a9a9a9;
+    content:"";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 11px;
+    height: 3px;
+    transform: translate(-50%, -50%);
+    background: #a9a9a9;
 }
 
 
@@ -463,7 +463,7 @@ line-height: 26px;
 
 
 .social-btn:active svg {
-  fill: #88b6d1;
+	fill: #88b6d1;
 }
 
 
@@ -540,23 +540,23 @@ line-height: 26px;
 
 
 .hotel-column p {
-  margin: 0 0 14px;
+	margin: 0 0 14px;
 }
 
 
 .hotel-column:first-child{
-  margin-right: 6px;
+	margin-right: 6px;
 }
 
 
 .hotel-img {
-  margin: 0;
-  padding-top: 5px;
+	margin: 0;
+    padding-top: 5px;
 }
 
 
 .hotel-img img {
-  display: block;
+	display: block;
 }
 
 
@@ -564,12 +564,12 @@ line-height: 26px;
 	font-size: 21px;
 	line-height: 26px;
 	color: #000000;
-  margin: 0 0 7px;
+    margin: 0 0 7px;
 }
 
 
 .hotel-descr {
-  display: flex;
+	display: flex;
 }
 
 
@@ -630,28 +630,28 @@ line-height: 26px;
 
 
 .btn-more {
-  display: block;
-  padding: 3px 17px;
-  color: #ffffff;
-  background-color: #81b3d2;
+	display: block;
+    padding: 3px 17px;
+    color: #ffffff;
+    background-color: #81b3d2;
 }
 
 
 .btn-more:hover {
-  color: #ffffff;
-  background-color: #669ec0;
+    color: #ffffff;
+    background-color: #669ec0;
 }
 
 
 .btn-more:active {
-  color: #88b6d1;
-  background-color: #5496bd;
+    color: #88b6d1;
+    background-color: #5496bd;
 }
 
 
 .btn-book {
-  display: block;
-  padding: 3px 17px;
+	display: block;
+    padding: 3px 17px;
 	color: #ffffff;
 	background-color: #766357;
 }
@@ -738,7 +738,7 @@ line-height: 26px;
 
 
 .advantage-item-2 {
-   display: block;
+    display: block;
 	border-color: #81b3d2;
 	color: #ffffff;
 	margin: 0;
@@ -1030,10 +1030,10 @@ line-height: 26px;
 
 
 .map img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
+	position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
  
 
@@ -1055,7 +1055,7 @@ line-height: 26px;
 	transform: translateX(-50%);
 	background-color: #ffffff;
 	box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, .15);
-	 z-index: 1;
+	z-index: 1;
 }
 
 
@@ -1168,33 +1168,33 @@ line-height: 26px;
 
 
 .price-controls::after {
-  content:"";
-  width: 2px;
-  height: 22px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: #fff;
+	content:"";
+    width: 2px;
+    height: 22px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
 }
 
 
 .max-price,
 .min-price {
-  text-align: center;
-  border: none;
+	text-align: center;
+    border: none;
 }
 
 
 .price-controls input {
-  border: none;
-  font-size: 14px;
-  line-height: 21px;
-  width: 157px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
-  background: transparent;
+	border: none;
+    font-size: 14px;
+    line-height: 21px;
+    width: 157px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    background: transparent;
 }
 
 
@@ -1206,43 +1206,43 @@ line-height: 26px;
 
 
 .range-controls .scale {
-  height: 2px;
-  background: #ffffff;
+	height: 2px;
+    background: #ffffff;
 }
 
 
 .toggle-min {
-  position: absolute;
-  top: 11px;
-  left: 0px;
-  width: 20px;
-  height: 22px;
-  cursor: pointer;
-  background: transparent;
-  border: 8px solid #fff;
-  border-radius: 50%;
-  box-shadow: 0 2px 1px 0 #cfcfcf;
+	position: absolute;
+    top: 11px;
+    left: 0px;
+    width: 20px;
+    height: 22px;
+    cursor: pointer;
+    background: transparent;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 #cfcfcf;
 }
 
 
 .toggle-max {
-  position: absolute;
-  top: 11px;
-  left: 254px;
-  width: 20px;
-  height: 22px;
-  cursor: pointer;
-  background: transparent;
-  border: 8px solid #fff;
-  border-radius: 50%;
-  box-shadow: 0 2px 1px 0 #ababab;
+	position: absolute;
+    top: 11px;
+    left: 254px;
+    width: 20px;
+    height: 22px;
+    cursor: pointer;
+    background: transparent;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 #ababab;
 }
 
 
 .toggle-min:hover,
 .toggle-max:hover {
-  width: 22px;
-  height: 24px;
+	width: 22px;
+    height: 24px;
 }
 
 
@@ -1394,31 +1394,31 @@ line-height: 26px;
 
 .hotel1 {
 	display: flex;
-  border-bottom: 1px solid #e5e5e5;
-  padding-top: 26px;
-  padding-bottom: 18px;
-  padding-right: 0;
-  padding-left: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 26px;
+    padding-bottom: 18px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 
 .hotel2 {
 	display: flex;
-  border-bottom: 1px solid #e5e5e5;
-  padding-top: 25px;
-  padding-bottom: 20px;
-  padding-right: 0;
-  padding-left: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 
 .hotel3 {
 	display: flex;
-  border-bottom: 1px solid #e5e5e5;
-  padding-top: 25px;
-  padding-bottom: 19px;
-  padding-right: 0;
-  padding-left: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 25px;
+    padding-bottom: 19px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 
@@ -1448,56 +1448,56 @@ img {
 
 
 .sort-label {
-  position: relative;
-  padding: 3px 0  3px 43px;
+	position: relative;
+    padding: 3px 0  3px 43px;
 }
 
 
 .sort-label input:checked + .sort-title::after {
-  content:"";
-  background: url(../img/checkbox-on.svg) 50% 50% no-repeat;
-  width: 27px;
-  height: 23px;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+    content:"";
+    background: url(../img/checkbox-on.svg) 50% 50% no-repeat;
+    width: 27px;
+    height: 23px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
 .sort-label input + .sort-title::after {
-  content:"";
-  background: url(../img/checkbox-off.svg);
-  width: 23px;
-  height: 23px;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+    content:"";
+    background: url(../img/checkbox-off.svg);
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
 .sort-label input:checked:disabled + .sort-title::after {
-  content:"";
-  background: url(../img/checkbox-disabled-on.svg) 50% 50% no-repeat;
-  width: 27px;
-  height: 23px;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+    content:"";
+    background: url(../img/checkbox-disabled-on.svg) 50% 50% no-repeat;
+    width: 27px;
+    height: 23px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
 .sort-label input:disabled + .sort-title::after {
-  content:"";
-  background: url(../img/checkbox-disabled-off.svg) 50% 50% no-repeat;
-  width: 23px;
-  height: 23px;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+    content:"";
+    background: url(../img/checkbox-disabled-off.svg) 50% 50% no-repeat;
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
