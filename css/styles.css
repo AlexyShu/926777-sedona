@@ -220,7 +220,6 @@ html {
 .form-page2 {
 	background-image: url(../img/main_background.jpg);
 	background-size: cover;
-	background-color: #ffffff;
 }
 
 
@@ -537,6 +536,7 @@ html {
 	        align-items: center;
 	color: #231f20;
 	background-color: #ffffff;
+	overflow: hidden;
 }
 
 
@@ -1220,6 +1220,10 @@ html {
 
 .modal-show {
 	display: block;
+}
+
+
+.modal-show-animation {
 	-webkit-animation-name: bounce;
 	        animation-name: bounce;
 	-webkit-animation-duration: 0.7s;
@@ -1302,7 +1306,7 @@ html {
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
-	background-color: #ffffff;
+	background-color: #695f5e;
 	margin: 0;
 	margin-bottom: 25px;
 	padding: 0;
@@ -1758,12 +1762,40 @@ html {
 }
 
 
+.sort-label input:checked:focus+.sort-title::after {
+	content: "";
+	background: url(../img/checkbox-on.svg) 50% 50% no-repeat;
+	width: 27px;
+	height: 23px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+
+
 .sort-label input:hover+.sort-title::after {
 	content: "";
 	background: url(../img/checkbox-off.svg);
 	width: 23px;
 	height: 23px;
 	cursor: pointer;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+
+
+.sort-label input:focus+.sort-title::after {
+	content: "";
+	background: url(../img/checkbox-off.svg);
+	width: 23px;
+	height: 23px;
 	position: absolute;
 	left: 0;
 	top: 50%;
