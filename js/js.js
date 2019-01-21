@@ -7,6 +7,7 @@ var data2 = document.querySelector(".appointment-item-date2");
 btn.addEventListener("click", function(evt) {
 	evt.preventDefault();
 	popup.classList.toggle("modal-show");
+	popup.classList.add("modal-show-animation");  
 });
 
 popup.addEventListener("animationend", function() {

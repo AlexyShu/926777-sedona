@@ -1451,8 +1451,18 @@ html {
 .toggle-min:hover,
 .toggle-max:hover {
 	width: 22px;
-	height: 22px; /* чтобы был круглый */
-	top: 9px; /*  bla, tk krug stal bolshe nado bolshe visotu*/
+	height: 22px; 
+	top: 9px; 
+}
+
+
+.toggle-min:hover {
+	left: -1px;
+}
+
+
+.toggle-max:hover {
+	left: 251px;
 }
 
 
@@ -1747,7 +1757,7 @@ html {
 }
 
 
-.sort-label input:checked:hover+.sort-title::after {
+.sort-label input:checked+.sort-title:hover::after {
 	content: "";
 	background: url(../img/checkbox-on.svg) 50% 50% no-repeat;
 	width: 27px;
@@ -1762,21 +1772,7 @@ html {
 }
 
 
-.sort-label input:checked:focus+.sort-title::after {
-	content: "";
-	background: url(../img/checkbox-on.svg) 50% 50% no-repeat;
-	width: 27px;
-	height: 23px;
-	position: absolute;
-	left: 0;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	    -ms-transform: translateY(-50%);
-	        transform: translateY(-50%);
-}
-
-
-.sort-label input:hover+.sort-title::after {
+.sort-label input+.sort-title:hover::after {
 	content: "";
 	background: url(../img/checkbox-off.svg);
 	width: 23px;
@@ -1791,17 +1787,9 @@ html {
 }
 
 
-.sort-label input:focus+.sort-title::after {
-	content: "";
-	background: url(../img/checkbox-off.svg);
-	width: 23px;
-	height: 23px;
-	position: absolute;
-	left: 0;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	    -ms-transform: translateY(-50%);
-	        transform: translateY(-50%);
+.sort-label input:focus + .sort-title::after {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
 }
 
 
